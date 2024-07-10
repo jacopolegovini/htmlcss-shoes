@@ -16,9 +16,16 @@
     margin: 0 auto;
 } */
 
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
 h1 {
     text-align: center;
     text-transform: uppercase;
+    color: yellow;
+    font-size: 4.5rem;
+    padding: 0 50px;
 }
 
 img {
@@ -27,11 +34,26 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: white;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
 /* Utilities */
 
 .section {
     height: 100vh;
     position: relative;
+    width: 100vw;
 }
 
 .content {
@@ -40,6 +62,8 @@ img {
     left: 50%;
     translate: -50% -50%;    
 }
+
+/* Section */
 
 .top-section {
     background-color: red;
@@ -51,4 +75,16 @@ img {
 
 .bottom-section {
     background-color: yellow;
+}
+
+.bottom-section h1 {
+    color: green;
+}
+
+/* Nav */
+
+.button {
+    position: fixed;
+    top: 20px;
+    right: 10px;
 }
