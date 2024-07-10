@@ -87,6 +87,14 @@ a {
     width: 10%;
 }
 
+.navigation-menu a:hover {
+    scale: 1.5;
+}
+
+.navigation-menu a:active {
+    scale: 1;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-between;
