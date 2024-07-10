@@ -45,6 +45,7 @@ a {
     text-shadow: 1px 1px 1px rgba(0, 0 , 0, 0.5);
 }
 
+
 /* Utilities */
 
 .section {
@@ -59,6 +60,7 @@ a {
     left: 50%;
     translate: -50% -50%;    
 }
+
 
 /* Section */
 
@@ -77,6 +79,7 @@ a {
 .bottom-section h1 {
     color: green;
 }
+
 
 /* Nav */
 
